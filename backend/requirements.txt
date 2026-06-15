@@ -1,0 +1,13 @@
+Django==5.0.6
+djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
+django-cors-headers==4.3.1
+django-filter==24.2
+python-decouple==3.8
+google-auth==2.30.0
+gunicorn==22.0.0
+
+# PostgreSQL driver — only needed when USE_SQLITE=False.
+# Has no prebuilt wheel on the newest Python yet; install separately if you
+# switch to Postgres:  pip install "psycopg[binary]"
+# psycopg2-binary==2.9.9
